@@ -1,0 +1,5 @@
+Para que el proyecto funcione, por favor recuerde crear en el raíz del mismo
+un archivo llamado "biblioteca-config.groovy" con el siguiente contenido:
+
+grails.awsAccessKeyID = "<provided-by-amazon>"
+grails.awsSecretKey = "<provided-by-amazon>"
