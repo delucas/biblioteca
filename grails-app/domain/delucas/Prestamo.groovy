@@ -2,7 +2,6 @@ package delucas
 
 class Prestamo {
 
-	Libro libro
 	String socio
 	Date fechaPrestamo
 	Date fechaDevolucion
@@ -17,4 +16,7 @@ class Prestamo {
 	static mapping = {
 		sort fechaDevolucion:"asc"
 	}
+	
+	static belongsTo = [libro:Libro]
+	
 }

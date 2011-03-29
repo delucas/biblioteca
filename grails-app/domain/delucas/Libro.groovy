@@ -22,7 +22,14 @@ class Libro {
 		amazonURL(nullable: true)
 	}
 	
+	static mapping = {
+		prestamos cascade:'all-delete-orphan'
+	}
+
+	static hasMany = [prestamos:Prestamo]
+	
 	String toString(){
 		return titulo
 	}
+	
 }
