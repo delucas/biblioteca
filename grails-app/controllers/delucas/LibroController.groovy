@@ -8,10 +8,18 @@ class LibroController {
 
 	def search = {
 	}
-
+	
 	def results = {
 
-		String isbn = params.isbn
+		
+		String isbn 
+		
+		// de esta manera permitimos que ingresen el isbn por url, o por parámetro
+		if (params.isbn) {
+			isbn = params.isbn
+		} else if (params.id) {
+			isbn = params.id
+		}
 
 		// primero busco si no lo tengo en la base local
 		def libroInstance = Libro.findByIsbn(isbn)
