@@ -20,14 +20,14 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Request" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Request" minOccurs="0"/>
  *         &lt;element name="DistinctTags" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="DistinctItems" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="DistinctUsers" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="TotalUsages" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="FirstTagging" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Tagging" minOccurs="0"/>
- *         &lt;element name="LastTagging" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Tagging" minOccurs="0"/>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Tag" maxOccurs="unbounded" minOccurs="0"/>
+ *         &lt;element name="FirstTagging" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Tagging" minOccurs="0"/>
+ *         &lt;element name="LastTagging" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Tagging" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Tag" maxOccurs="unbounded" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>

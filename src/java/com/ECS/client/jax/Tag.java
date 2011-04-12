@@ -33,11 +33,11 @@ import javax.xml.bind.annotation.XmlType;
  *         &lt;element name="DistinctItems" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="DistinctUsers" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="TotalUsages" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="FirstTagging" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Tagging" minOccurs="0"/>
- *         &lt;element name="LastTagging" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Tagging" minOccurs="0"/>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}TaggedItems" maxOccurs="unbounded" minOccurs="0"/>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}TaggedListmaniaLists" maxOccurs="unbounded" minOccurs="0"/>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}TaggedGuides" maxOccurs="unbounded" minOccurs="0"/>
+ *         &lt;element name="FirstTagging" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Tagging" minOccurs="0"/>
+ *         &lt;element name="LastTagging" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Tagging" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}TaggedItems" maxOccurs="unbounded" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}TaggedListmaniaLists" maxOccurs="unbounded" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}TaggedGuides" maxOccurs="unbounded" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>

@@ -17,7 +17,7 @@ import javax.xml.ws.WebServiceFeature;
  * Generated source version: 2.1
  * 
  */
-@WebServiceClient(name = "AWSECommerceService", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", wsdlLocation = "http://ecs.amazonaws.com/AWSECommerceService/AWSECommerceService.wsdl")
+@WebServiceClient(name = "AWSECommerceService", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", wsdlLocation = "http://webservices.amazon.com/AWSECommerceService/2011-04-01/AWSECommerceService.wsdl")
 public class AWSECommerceService
     extends Service
 {
@@ -30,9 +30,9 @@ public class AWSECommerceService
         try {
             URL baseUrl;
             baseUrl = com.ECS.client.jax.AWSECommerceService.class.getResource(".");
-            url = new URL(baseUrl, "http://ecs.amazonaws.com/AWSECommerceService/AWSECommerceService.wsdl");
+            url = new URL(baseUrl, "http://webservices.amazon.com/AWSECommerceService/2011-04-01/AWSECommerceService.wsdl");
         } catch (MalformedURLException e) {
-            logger.warning("Failed to create URL for the wsdl Location: 'http://ecs.amazonaws.com/AWSECommerceService/AWSECommerceService.wsdl', retrying as a local file");
+            logger.warning("Failed to create URL for the wsdl Location: 'http://webservices.amazon.com/AWSECommerceService/2011-04-01/AWSECommerceService.wsdl', retrying as a local file");
             logger.warning(e.getMessage());
         }
         AWSECOMMERCESERVICE_WSDL_LOCATION = url;
@@ -43,7 +43,7 @@ public class AWSECommerceService
     }
 
     public AWSECommerceService() {
-        super(AWSECOMMERCESERVICE_WSDL_LOCATION, new QName("http://webservices.amazon.com/AWSECommerceService/2010-12-01", "AWSECommerceService"));
+        super(AWSECOMMERCESERVICE_WSDL_LOCATION, new QName("http://webservices.amazon.com/AWSECommerceService/2011-04-01", "AWSECommerceService"));
     }
 
     /**
@@ -53,7 +53,7 @@ public class AWSECommerceService
      */
     @WebEndpoint(name = "AWSECommerceServicePort")
     public AWSECommerceServicePortType getAWSECommerceServicePort() {
-        return super.getPort(new QName("http://webservices.amazon.com/AWSECommerceService/2010-12-01", "AWSECommerceServicePort"), AWSECommerceServicePortType.class);
+        return super.getPort(new QName("http://webservices.amazon.com/AWSECommerceService/2011-04-01", "AWSECommerceServicePort"), AWSECommerceServicePortType.class);
     }
 
     /**
@@ -65,7 +65,7 @@ public class AWSECommerceService
      */
     @WebEndpoint(name = "AWSECommerceServicePort")
     public AWSECommerceServicePortType getAWSECommerceServicePort(WebServiceFeature... features) {
-        return super.getPort(new QName("http://webservices.amazon.com/AWSECommerceService/2010-12-01", "AWSECommerceServicePort"), AWSECommerceServicePortType.class, features);
+        return super.getPort(new QName("http://webservices.amazon.com/AWSECommerceService/2011-04-01", "AWSECommerceServicePort"), AWSECommerceServicePortType.class, features);
     }
 
 }

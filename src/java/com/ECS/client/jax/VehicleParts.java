@@ -20,13 +20,13 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Request" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Request" minOccurs="0"/>
  *         &lt;element name="IsNext" type="{http://www.w3.org/2001/XMLSchema}boolean" maxOccurs="unbounded" minOccurs="0"/>
  *         &lt;element name="IsPrevious" type="{http://www.w3.org/2001/XMLSchema}boolean" maxOccurs="unbounded" minOccurs="0"/>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Part" maxOccurs="unbounded" minOccurs="0"/>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}MissingVehicleAttributes" minOccurs="0"/>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}PartBrowseNodeBins" minOccurs="0"/>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}PartBrandBins" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Part" maxOccurs="unbounded" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}MissingVehicleAttributes" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}PartBrowseNodeBins" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}PartBrandBins" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>

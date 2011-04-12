@@ -25,9 +25,9 @@ import javax.xml.bind.annotation.XmlValue;
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
  *         &lt;element name="Actor" type="{http://www.w3.org/2001/XMLSchema}string" maxOccurs="unbounded" minOccurs="0"/>
- *         &lt;element name="Address" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Address" minOccurs="0"/>
- *         &lt;element name="AmazonMaximumAge" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
- *         &lt;element name="AmazonMinimumAge" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
+ *         &lt;element name="Address" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Address" minOccurs="0"/>
+ *         &lt;element name="AmazonMaximumAge" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
+ *         &lt;element name="AmazonMinimumAge" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
  *         &lt;element name="ApertureModes" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="Artist" type="{http://www.w3.org/2001/XMLSchema}string" maxOccurs="unbounded" minOccurs="0"/>
  *         &lt;element name="AspectRatio" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
@@ -40,7 +40,7 @@ import javax.xml.bind.annotation.XmlValue;
  *         &lt;element name="BandMaterialType" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="BatteriesIncluded" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="BatteriesRequired" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="Batteries" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}NonNegativeIntegerWithUnits" minOccurs="0"/>
+ *         &lt;element name="Batteries" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}NonNegativeIntegerWithUnits" minOccurs="0"/>
  *         &lt;element name="BatteryDescription" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="BatteryType" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="BezelMaterialType" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
@@ -48,9 +48,9 @@ import javax.xml.bind.annotation.XmlValue;
  *         &lt;element name="Brand" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="CalendarType" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="CameraManualFeatures" type="{http://www.w3.org/2001/XMLSchema}string" maxOccurs="unbounded" minOccurs="0"/>
- *         &lt;element name="CaseDiameter" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
+ *         &lt;element name="CaseDiameter" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
  *         &lt;element name="CaseMaterialType" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="CaseThickness" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
+ *         &lt;element name="CaseThickness" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
  *         &lt;element name="CaseType" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="CatalogNumber" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="CDRWDescription" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
@@ -62,11 +62,11 @@ import javax.xml.bind.annotation.XmlValue;
  *         &lt;element name="ComputerHardwareType" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="ComputerPlatform" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="Connectivity" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="ContinuousShootingSpeed" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
+ *         &lt;element name="ContinuousShootingSpeed" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
  *         &lt;element name="Country" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="CountryOfOrigin" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="CPUManufacturer" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="CPUSpeed" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
+ *         &lt;element name="CPUSpeed" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
  *         &lt;element name="CPUType" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="Creator" maxOccurs="unbounded" minOccurs="0">
  *           &lt;complexType>
@@ -79,16 +79,16 @@ import javax.xml.bind.annotation.XmlValue;
  *         &lt;/element>
  *         &lt;element name="Cuisine" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="Customizable" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="DelayBetweenShots" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
+ *         &lt;element name="DelayBetweenShots" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
  *         &lt;element name="DeliveryOption" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="Department" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="Description" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="DeweyDecimalNumber" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="DialColor" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="DialWindowMaterialType" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="DigitalZoom" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
+ *         &lt;element name="DigitalZoom" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
  *         &lt;element name="Director" type="{http://www.w3.org/2001/XMLSchema}string" maxOccurs="unbounded" minOccurs="0"/>
- *         &lt;element name="DisplaySize" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
+ *         &lt;element name="DisplaySize" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
  *         &lt;element name="DrumSetPieceQuantity" type="{http://www.w3.org/2001/XMLSchema}nonNegativeInteger" minOccurs="0"/>
  *         &lt;element name="DVDLayers" type="{http://www.w3.org/2001/XMLSchema}nonNegativeInteger" minOccurs="0"/>
  *         &lt;element name="DVDRWDescription" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
@@ -101,20 +101,20 @@ import javax.xml.bind.annotation.XmlValue;
  *         &lt;element name="FabricType" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="FaxNumber" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="Feature" type="{http://www.w3.org/2001/XMLSchema}string" maxOccurs="unbounded" minOccurs="0"/>
- *         &lt;element name="FirstIssueLeadTime" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}StringWithUnits" minOccurs="0"/>
+ *         &lt;element name="FirstIssueLeadTime" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}StringWithUnits" minOccurs="0"/>
  *         &lt;element name="FloppyDiskDriveDescription" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="Format" type="{http://www.w3.org/2001/XMLSchema}string" maxOccurs="unbounded" minOccurs="0"/>
- *         &lt;element name="FixedShippingCharge" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Price" minOccurs="0"/>
+ *         &lt;element name="FixedShippingCharge" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Price" minOccurs="0"/>
  *         &lt;element name="GemType" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="GraphicsCardInterface" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="GraphicsDescription" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="GraphicsMemorySize" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
+ *         &lt;element name="GraphicsMemorySize" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
  *         &lt;element name="GuitarAttribute" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="GuitarBridgeSystem" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="GuitarPickThickness" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="GuitarPickupConfiguration" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="HardDiskCount" type="{http://www.w3.org/2001/XMLSchema}nonNegativeInteger" minOccurs="0"/>
- *         &lt;element name="HardDiskSize" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}NonNegativeIntegerWithUnits" minOccurs="0"/>
+ *         &lt;element name="HardDiskSize" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}NonNegativeIntegerWithUnits" minOccurs="0"/>
  *         &lt;element name="HasAutoFocus" type="{http://www.w3.org/2001/XMLSchema}boolean" minOccurs="0"/>
  *         &lt;element name="HasBurstMode" type="{http://www.w3.org/2001/XMLSchema}boolean" minOccurs="0"/>
  *         &lt;element name="HasInCameraEditing" type="{http://www.w3.org/2001/XMLSchema}boolean" minOccurs="0"/>
@@ -137,17 +137,17 @@ import javax.xml.bind.annotation.XmlValue;
  *         &lt;element name="IsFragile" type="{http://www.w3.org/2001/XMLSchema}boolean" minOccurs="0"/>
  *         &lt;element name="IsLabCreated" type="{http://www.w3.org/2001/XMLSchema}boolean" minOccurs="0"/>
  *         &lt;element name="IsMemorabilia" type="{http://www.w3.org/2001/XMLSchema}boolean" minOccurs="0"/>
- *         &lt;element name="ISOEquivalent" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}NonNegativeIntegerWithUnits" minOccurs="0"/>
+ *         &lt;element name="ISOEquivalent" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}NonNegativeIntegerWithUnits" minOccurs="0"/>
  *         &lt;element name="IssuesPerYear" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="ItemDimensions" minOccurs="0">
  *           &lt;complexType>
  *             &lt;complexContent>
  *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *                 &lt;sequence>
- *                   &lt;element name="Height" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
- *                   &lt;element name="Length" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
- *                   &lt;element name="Weight" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
- *                   &lt;element name="Width" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
+ *                   &lt;element name="Height" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
+ *                   &lt;element name="Length" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
+ *                   &lt;element name="Weight" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
+ *                   &lt;element name="Width" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
  *                 &lt;/sequence>
  *               &lt;/restriction>
  *             &lt;/complexContent>
@@ -180,38 +180,38 @@ import javax.xml.bind.annotation.XmlValue;
  *         &lt;/element>
  *         &lt;element name="LegalDisclaimer" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="LineVoltage" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="ListPrice" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Price" minOccurs="0"/>
+ *         &lt;element name="ListPrice" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Price" minOccurs="0"/>
  *         &lt;element name="MacroFocusRange" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="MagazineType" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="MalletHardness" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="Manufacturer" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="ManufacturerLaborWarrantyDescription" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="ManufacturerMaximumAge" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
- *         &lt;element name="ManufacturerMinimumAge" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
+ *         &lt;element name="ManufacturerMaximumAge" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
+ *         &lt;element name="ManufacturerMinimumAge" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
  *         &lt;element name="ManufacturerPartsWarrantyDescription" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="MaterialType" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="MaximumAperture" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
+ *         &lt;element name="MaximumAperture" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
  *         &lt;element name="MaximumColorDepth" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="MaximumFocalLength" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
- *         &lt;element name="MaximumHighResolutionImages" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}NonNegativeIntegerWithUnits" minOccurs="0"/>
- *         &lt;element name="MaximumHorizontalResolution" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}NonNegativeIntegerWithUnits" minOccurs="0"/>
+ *         &lt;element name="MaximumFocalLength" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
+ *         &lt;element name="MaximumHighResolutionImages" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}NonNegativeIntegerWithUnits" minOccurs="0"/>
+ *         &lt;element name="MaximumHorizontalResolution" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}NonNegativeIntegerWithUnits" minOccurs="0"/>
  *         &lt;element name="MaximumLowResolutionImages" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="MaximumResolution" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
- *         &lt;element name="MaximumShutterSpeed" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
- *         &lt;element name="MaximumVerticalResolution" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}NonNegativeIntegerWithUnits" minOccurs="0"/>
- *         &lt;element name="MaximumWeightRecommendation" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
+ *         &lt;element name="MaximumResolution" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
+ *         &lt;element name="MaximumShutterSpeed" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
+ *         &lt;element name="MaximumVerticalResolution" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}NonNegativeIntegerWithUnits" minOccurs="0"/>
+ *         &lt;element name="MaximumWeightRecommendation" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
  *         &lt;element name="MemorySlotsAvailable" type="{http://www.w3.org/2001/XMLSchema}nonNegativeInteger" minOccurs="0"/>
  *         &lt;element name="MetalStamp" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="MetalType" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="MiniMovieDescription" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="MinimumAdvertisedPrice" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Price" minOccurs="0"/>
- *         &lt;element name="MinimumFocalLength" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
- *         &lt;element name="MinimumShutterSpeed" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
+ *         &lt;element name="MinimumAdvertisedPrice" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Price" minOccurs="0"/>
+ *         &lt;element name="MinimumFocalLength" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
+ *         &lt;element name="MinimumShutterSpeed" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
  *         &lt;element name="Model" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="ModelYear" type="{http://www.w3.org/2001/XMLSchema}nonNegativeInteger" minOccurs="0"/>
  *         &lt;element name="ModemDescription" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="MonitorSize" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
- *         &lt;element name="MonitorViewableDiagonalSize" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
+ *         &lt;element name="MonitorSize" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
+ *         &lt;element name="MonitorViewableDiagonalSize" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
  *         &lt;element name="MouseDescription" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="MPN" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="MusicalStyle" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
@@ -230,7 +230,7 @@ import javax.xml.bind.annotation.XmlValue;
  *         &lt;element name="NumberOfStones" type="{http://www.w3.org/2001/XMLSchema}nonNegativeInteger" minOccurs="0"/>
  *         &lt;element name="NumberOfStrings" type="{http://www.w3.org/2001/XMLSchema}nonNegativeInteger" minOccurs="0"/>
  *         &lt;element name="NumberOfTracks" type="{http://www.w3.org/2001/XMLSchema}nonNegativeInteger" minOccurs="0"/>
- *         &lt;element name="OpticalZoom" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
+ *         &lt;element name="OpticalZoom" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
  *         &lt;element name="OriginalReleaseDate" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="OutputWattage" type="{http://www.w3.org/2001/XMLSchema}nonNegativeInteger" minOccurs="0"/>
  *         &lt;element name="PackageDimensions" minOccurs="0">
@@ -238,10 +238,10 @@ import javax.xml.bind.annotation.XmlValue;
  *             &lt;complexContent>
  *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *                 &lt;sequence>
- *                   &lt;element name="Height" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
- *                   &lt;element name="Length" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
- *                   &lt;element name="Weight" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
- *                   &lt;element name="Width" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
+ *                   &lt;element name="Height" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
+ *                   &lt;element name="Length" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
+ *                   &lt;element name="Weight" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
+ *                   &lt;element name="Width" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
  *                 &lt;/sequence>
  *               &lt;/restriction>
  *             &lt;/complexContent>
@@ -278,7 +278,7 @@ import javax.xml.bind.annotation.XmlValue;
  *         &lt;element name="RingSize" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="SafetyWarning" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="SalesRestriction" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="SecondaryCacheSize" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}NonNegativeIntegerWithUnits" minOccurs="0"/>
+ *         &lt;element name="SecondaryCacheSize" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}NonNegativeIntegerWithUnits" minOccurs="0"/>
  *         &lt;element name="SettingType" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="Size" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="SKU" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
@@ -293,23 +293,23 @@ import javax.xml.bind.annotation.XmlValue;
  *         &lt;element name="StoneColor" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="StoneCut" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="StoneShape" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="StoneWeight" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
+ *         &lt;element name="StoneWeight" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
  *         &lt;element name="Studio" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="SubscriptionLength" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}NonNegativeIntegerWithUnits" minOccurs="0"/>
+ *         &lt;element name="SubscriptionLength" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}NonNegativeIntegerWithUnits" minOccurs="0"/>
  *         &lt;element name="SupportedImageType" type="{http://www.w3.org/2001/XMLSchema}string" maxOccurs="unbounded" minOccurs="0"/>
- *         &lt;element name="SystemBusSpeed" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
- *         &lt;element name="SystemMemorySizeMax" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
- *         &lt;element name="SystemMemorySize" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
+ *         &lt;element name="SystemBusSpeed" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
+ *         &lt;element name="SystemMemorySizeMax" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
+ *         &lt;element name="SystemMemorySize" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
  *         &lt;element name="SystemMemoryType" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="TellingPageIndicator" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="TheatricalReleaseDate" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="Title" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="TotalDiamondWeight" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
+ *         &lt;element name="TotalDiamondWeight" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
  *         &lt;element name="TotalExternalBaysFree" type="{http://www.w3.org/2001/XMLSchema}nonNegativeInteger" minOccurs="0"/>
  *         &lt;element name="TotalFirewirePorts" type="{http://www.w3.org/2001/XMLSchema}nonNegativeInteger" minOccurs="0"/>
- *         &lt;element name="TotalGemWeight" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
+ *         &lt;element name="TotalGemWeight" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
  *         &lt;element name="TotalInternalBaysFree" type="{http://www.w3.org/2001/XMLSchema}nonNegativeInteger" minOccurs="0"/>
- *         &lt;element name="TotalMetalWeight" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
+ *         &lt;element name="TotalMetalWeight" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
  *         &lt;element name="TotalNTSCPALPorts" type="{http://www.w3.org/2001/XMLSchema}nonNegativeInteger" minOccurs="0"/>
  *         &lt;element name="TotalParallelPorts" type="{http://www.w3.org/2001/XMLSchema}nonNegativeInteger" minOccurs="0"/>
  *         &lt;element name="TotalPCCardSlots" type="{http://www.w3.org/2001/XMLSchema}nonNegativeInteger" minOccurs="0"/>
@@ -338,7 +338,7 @@ import javax.xml.bind.annotation.XmlValue;
  *         &lt;element name="Warranty" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="WatchMovementType" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="WebsiteBuyability" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="WaterResistanceDepth" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
+ *         &lt;element name="WaterResistanceDepth" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
  *         &lt;element name="WirelessMicrophoneFrequency" type="{http://www.w3.org/2001/XMLSchema}nonNegativeInteger" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
@@ -7260,10 +7260,10 @@ public class MerchantItemAttributes {
      *   &lt;complexContent>
      *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
      *       &lt;sequence>
-     *         &lt;element name="Height" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
-     *         &lt;element name="Length" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
-     *         &lt;element name="Weight" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
-     *         &lt;element name="Width" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
+     *         &lt;element name="Height" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
+     *         &lt;element name="Length" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
+     *         &lt;element name="Weight" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
+     *         &lt;element name="Width" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
      *       &lt;/sequence>
      *     &lt;/restriction>
      *   &lt;/complexContent>
@@ -7582,10 +7582,10 @@ public class MerchantItemAttributes {
      *   &lt;complexContent>
      *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
      *       &lt;sequence>
-     *         &lt;element name="Height" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
-     *         &lt;element name="Length" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
-     *         &lt;element name="Weight" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
-     *         &lt;element name="Width" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DecimalWithUnits" minOccurs="0"/>
+     *         &lt;element name="Height" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
+     *         &lt;element name="Length" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
+     *         &lt;element name="Weight" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
+     *         &lt;element name="Width" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DecimalWithUnits" minOccurs="0"/>
      *       &lt;/sequence>
      *     &lt;/restriction>
      *   &lt;/complexContent>

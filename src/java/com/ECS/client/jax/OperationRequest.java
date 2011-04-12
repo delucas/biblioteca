@@ -18,10 +18,10 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}HTTPHeaders" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}HTTPHeaders" minOccurs="0"/>
  *         &lt;element name="RequestId" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Arguments" minOccurs="0"/>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Errors" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Arguments" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Errors" minOccurs="0"/>
  *         &lt;element name="RequestProcessingTime" type="{http://www.w3.org/2001/XMLSchema}float" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>

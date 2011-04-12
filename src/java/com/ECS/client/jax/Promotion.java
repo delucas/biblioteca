@@ -50,9 +50,9 @@ import javax.xml.bind.annotation.XmlType;
  *                   &lt;element name="StartDate" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *                   &lt;element name="EndDate" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *                   &lt;element name="TermsAndConditions" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *                   &lt;element name="EligibilityRequirements" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}PromotionEligibilityRequirements" minOccurs="0"/>
- *                   &lt;element name="Benefits" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}PromotionBenefits" minOccurs="0"/>
- *                   &lt;element name="ItemApplicability" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}PromotionItemApplicability" minOccurs="0"/>
+ *                   &lt;element name="EligibilityRequirements" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}PromotionEligibilityRequirements" minOccurs="0"/>
+ *                   &lt;element name="Benefits" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}PromotionBenefits" minOccurs="0"/>
+ *                   &lt;element name="ItemApplicability" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}PromotionItemApplicability" minOccurs="0"/>
  *                   &lt;element name="MerchandisingMessage" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *                   &lt;element name="IconMediaId" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *                   &lt;element name="IsIconMediaIdCustom" type="{http://www.w3.org/2001/XMLSchema}boolean" minOccurs="0"/>
@@ -151,9 +151,9 @@ public class Promotion {
      *         &lt;element name="StartDate" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
      *         &lt;element name="EndDate" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
      *         &lt;element name="TermsAndConditions" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
-     *         &lt;element name="EligibilityRequirements" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}PromotionEligibilityRequirements" minOccurs="0"/>
-     *         &lt;element name="Benefits" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}PromotionBenefits" minOccurs="0"/>
-     *         &lt;element name="ItemApplicability" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}PromotionItemApplicability" minOccurs="0"/>
+     *         &lt;element name="EligibilityRequirements" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}PromotionEligibilityRequirements" minOccurs="0"/>
+     *         &lt;element name="Benefits" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}PromotionBenefits" minOccurs="0"/>
+     *         &lt;element name="ItemApplicability" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}PromotionItemApplicability" minOccurs="0"/>
      *         &lt;element name="MerchandisingMessage" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
      *         &lt;element name="IconMediaId" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
      *         &lt;element name="IsIconMediaIdCustom" type="{http://www.w3.org/2001/XMLSchema}boolean" minOccurs="0"/>

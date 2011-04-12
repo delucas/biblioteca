@@ -45,12 +45,12 @@ import javax.xml.bind.annotation.XmlType;
  *         &lt;element name="PartnerName" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="AdditionalName" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="Comment" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="Image" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Image" minOccurs="0"/>
+ *         &lt;element name="Image" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Image" minOccurs="0"/>
  *         &lt;element name="AverageRating" type="{http://www.w3.org/2001/XMLSchema}decimal" minOccurs="0"/>
  *         &lt;element name="TotalVotes" type="{http://www.w3.org/2001/XMLSchema}nonNegativeInteger" minOccurs="0"/>
  *         &lt;element name="TotalTimesRead" type="{http://www.w3.org/2001/XMLSchema}nonNegativeInteger" minOccurs="0"/>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Tags" minOccurs="0"/>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}ListItem" maxOccurs="unbounded" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Tags" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}ListItem" maxOccurs="unbounded" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>

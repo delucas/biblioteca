@@ -20,8 +20,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="SubTotal" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Price" minOccurs="0"/>
- *         &lt;element name="CartItem" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}CartItem" maxOccurs="unbounded"/>
+ *         &lt;element name="SubTotal" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Price" minOccurs="0"/>
+ *         &lt;element name="CartItem" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}CartItem" maxOccurs="unbounded"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>

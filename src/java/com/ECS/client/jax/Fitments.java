@@ -25,7 +25,7 @@ import javax.xml.bind.annotation.XmlType;
  *         &lt;element name="TotalFitments" type="{http://www.w3.org/2001/XMLSchema}nonNegativeInteger"/>
  *         &lt;element name="TotalPages" type="{http://www.w3.org/2001/XMLSchema}nonNegativeInteger"/>
  *         &lt;element name="FitmentAttributes" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Fitment" maxOccurs="unbounded" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Fitment" maxOccurs="unbounded" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>

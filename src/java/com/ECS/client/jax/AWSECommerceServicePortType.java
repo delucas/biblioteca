@@ -15,7 +15,7 @@ import javax.xml.bind.annotation.XmlSeeAlso;
  * Generated source version: 2.1
  * 
  */
-@WebService(name = "AWSECommerceServicePortType", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01")
+@WebService(name = "AWSECommerceServicePortType", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01")
 @SOAPBinding(parameterStyle = SOAPBinding.ParameterStyle.BARE)
 @XmlSeeAlso({
     ObjectFactory.class
@@ -30,9 +30,9 @@ public interface AWSECommerceServicePortType {
      *     returns com.ECS.client.jax.HelpResponse
      */
     @WebMethod(operationName = "Help", action = "http://soap.amazon.com/Help")
-    @WebResult(name = "HelpResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+    @WebResult(name = "HelpResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
     public HelpResponse help(
-        @WebParam(name = "Help", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+        @WebParam(name = "Help", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
         Help body);
 
     /**
@@ -42,9 +42,9 @@ public interface AWSECommerceServicePortType {
      *     returns com.ECS.client.jax.ItemSearchResponse
      */
     @WebMethod(operationName = "ItemSearch", action = "http://soap.amazon.com/ItemSearch")
-    @WebResult(name = "ItemSearchResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+    @WebResult(name = "ItemSearchResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
     public ItemSearchResponse itemSearch(
-        @WebParam(name = "ItemSearch", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+        @WebParam(name = "ItemSearch", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
         ItemSearch body);
 
     /**
@@ -54,9 +54,9 @@ public interface AWSECommerceServicePortType {
      *     returns com.ECS.client.jax.ItemLookupResponse
      */
     @WebMethod(operationName = "ItemLookup", action = "http://soap.amazon.com/ItemLookup")
-    @WebResult(name = "ItemLookupResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+    @WebResult(name = "ItemLookupResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
     public ItemLookupResponse itemLookup(
-        @WebParam(name = "ItemLookup", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+        @WebParam(name = "ItemLookup", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
         ItemLookup body);
 
     /**
@@ -66,9 +66,9 @@ public interface AWSECommerceServicePortType {
      *     returns com.ECS.client.jax.BrowseNodeLookupResponse
      */
     @WebMethod(operationName = "BrowseNodeLookup", action = "http://soap.amazon.com/BrowseNodeLookup")
-    @WebResult(name = "BrowseNodeLookupResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+    @WebResult(name = "BrowseNodeLookupResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
     public BrowseNodeLookupResponse browseNodeLookup(
-        @WebParam(name = "BrowseNodeLookup", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+        @WebParam(name = "BrowseNodeLookup", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
         BrowseNodeLookup body);
 
     /**
@@ -78,9 +78,9 @@ public interface AWSECommerceServicePortType {
      *     returns com.ECS.client.jax.ListSearchResponse
      */
     @WebMethod(operationName = "ListSearch", action = "http://soap.amazon.com/ListSearch")
-    @WebResult(name = "ListSearchResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+    @WebResult(name = "ListSearchResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
     public ListSearchResponse listSearch(
-        @WebParam(name = "ListSearch", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+        @WebParam(name = "ListSearch", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
         ListSearch body);
 
     /**
@@ -90,9 +90,9 @@ public interface AWSECommerceServicePortType {
      *     returns com.ECS.client.jax.ListLookupResponse
      */
     @WebMethod(operationName = "ListLookup", action = "http://soap.amazon.com/ListLookup")
-    @WebResult(name = "ListLookupResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+    @WebResult(name = "ListLookupResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
     public ListLookupResponse listLookup(
-        @WebParam(name = "ListLookup", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+        @WebParam(name = "ListLookup", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
         ListLookup body);
 
     /**
@@ -102,9 +102,9 @@ public interface AWSECommerceServicePortType {
      *     returns com.ECS.client.jax.CustomerContentSearchResponse
      */
     @WebMethod(operationName = "CustomerContentSearch", action = "http://soap.amazon.com/CustomerContentSearch")
-    @WebResult(name = "CustomerContentSearchResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+    @WebResult(name = "CustomerContentSearchResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
     public CustomerContentSearchResponse customerContentSearch(
-        @WebParam(name = "CustomerContentSearch", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+        @WebParam(name = "CustomerContentSearch", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
         CustomerContentSearch body);
 
     /**
@@ -114,9 +114,9 @@ public interface AWSECommerceServicePortType {
      *     returns com.ECS.client.jax.CustomerContentLookupResponse
      */
     @WebMethod(operationName = "CustomerContentLookup", action = "http://soap.amazon.com/CustomerContentLookup")
-    @WebResult(name = "CustomerContentLookupResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+    @WebResult(name = "CustomerContentLookupResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
     public CustomerContentLookupResponse customerContentLookup(
-        @WebParam(name = "CustomerContentLookup", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+        @WebParam(name = "CustomerContentLookup", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
         CustomerContentLookup body);
 
     /**
@@ -126,9 +126,9 @@ public interface AWSECommerceServicePortType {
      *     returns com.ECS.client.jax.SimilarityLookupResponse
      */
     @WebMethod(operationName = "SimilarityLookup", action = "http://soap.amazon.com/SimilarityLookup")
-    @WebResult(name = "SimilarityLookupResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+    @WebResult(name = "SimilarityLookupResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
     public SimilarityLookupResponse similarityLookup(
-        @WebParam(name = "SimilarityLookup", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+        @WebParam(name = "SimilarityLookup", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
         SimilarityLookup body);
 
     /**
@@ -138,9 +138,9 @@ public interface AWSECommerceServicePortType {
      *     returns com.ECS.client.jax.SellerLookupResponse
      */
     @WebMethod(operationName = "SellerLookup", action = "http://soap.amazon.com/SellerLookup")
-    @WebResult(name = "SellerLookupResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+    @WebResult(name = "SellerLookupResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
     public SellerLookupResponse sellerLookup(
-        @WebParam(name = "SellerLookup", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+        @WebParam(name = "SellerLookup", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
         SellerLookup body);
 
     /**
@@ -150,9 +150,9 @@ public interface AWSECommerceServicePortType {
      *     returns com.ECS.client.jax.CartGetResponse
      */
     @WebMethod(operationName = "CartGet", action = "http://soap.amazon.com/CartGet")
-    @WebResult(name = "CartGetResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+    @WebResult(name = "CartGetResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
     public CartGetResponse cartGet(
-        @WebParam(name = "CartGet", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+        @WebParam(name = "CartGet", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
         CartGet body);
 
     /**
@@ -162,9 +162,9 @@ public interface AWSECommerceServicePortType {
      *     returns com.ECS.client.jax.CartCreateResponse
      */
     @WebMethod(operationName = "CartCreate", action = "http://soap.amazon.com/CartCreate")
-    @WebResult(name = "CartCreateResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+    @WebResult(name = "CartCreateResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
     public CartCreateResponse cartCreate(
-        @WebParam(name = "CartCreate", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+        @WebParam(name = "CartCreate", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
         CartCreate body);
 
     /**
@@ -174,9 +174,9 @@ public interface AWSECommerceServicePortType {
      *     returns com.ECS.client.jax.CartAddResponse
      */
     @WebMethod(operationName = "CartAdd", action = "http://soap.amazon.com/CartAdd")
-    @WebResult(name = "CartAddResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+    @WebResult(name = "CartAddResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
     public CartAddResponse cartAdd(
-        @WebParam(name = "CartAdd", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+        @WebParam(name = "CartAdd", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
         CartAdd body);
 
     /**
@@ -186,9 +186,9 @@ public interface AWSECommerceServicePortType {
      *     returns com.ECS.client.jax.CartModifyResponse
      */
     @WebMethod(operationName = "CartModify", action = "http://soap.amazon.com/CartModify")
-    @WebResult(name = "CartModifyResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+    @WebResult(name = "CartModifyResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
     public CartModifyResponse cartModify(
-        @WebParam(name = "CartModify", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+        @WebParam(name = "CartModify", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
         CartModify body);
 
     /**
@@ -198,9 +198,9 @@ public interface AWSECommerceServicePortType {
      *     returns com.ECS.client.jax.CartClearResponse
      */
     @WebMethod(operationName = "CartClear", action = "http://soap.amazon.com/CartClear")
-    @WebResult(name = "CartClearResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+    @WebResult(name = "CartClearResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
     public CartClearResponse cartClear(
-        @WebParam(name = "CartClear", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+        @WebParam(name = "CartClear", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
         CartClear body);
 
     /**
@@ -210,9 +210,9 @@ public interface AWSECommerceServicePortType {
      *     returns com.ECS.client.jax.TransactionLookupResponse
      */
     @WebMethod(operationName = "TransactionLookup", action = "http://soap.amazon.com/TransactionLookup")
-    @WebResult(name = "TransactionLookupResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+    @WebResult(name = "TransactionLookupResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
     public TransactionLookupResponse transactionLookup(
-        @WebParam(name = "TransactionLookup", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+        @WebParam(name = "TransactionLookup", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
         TransactionLookup body);
 
     /**
@@ -222,9 +222,9 @@ public interface AWSECommerceServicePortType {
      *     returns com.ECS.client.jax.SellerListingSearchResponse
      */
     @WebMethod(operationName = "SellerListingSearch", action = "http://soap.amazon.com/SellerListingSearch")
-    @WebResult(name = "SellerListingSearchResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+    @WebResult(name = "SellerListingSearchResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
     public SellerListingSearchResponse sellerListingSearch(
-        @WebParam(name = "SellerListingSearch", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+        @WebParam(name = "SellerListingSearch", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
         SellerListingSearch body);
 
     /**
@@ -234,9 +234,9 @@ public interface AWSECommerceServicePortType {
      *     returns com.ECS.client.jax.SellerListingLookupResponse
      */
     @WebMethod(operationName = "SellerListingLookup", action = "http://soap.amazon.com/SellerListingLookup")
-    @WebResult(name = "SellerListingLookupResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+    @WebResult(name = "SellerListingLookupResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
     public SellerListingLookupResponse sellerListingLookup(
-        @WebParam(name = "SellerListingLookup", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+        @WebParam(name = "SellerListingLookup", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
         SellerListingLookup body);
 
     /**
@@ -246,9 +246,9 @@ public interface AWSECommerceServicePortType {
      *     returns com.ECS.client.jax.TagLookupResponse
      */
     @WebMethod(operationName = "TagLookup", action = "http://soap.amazon.com/TagLookup")
-    @WebResult(name = "TagLookupResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+    @WebResult(name = "TagLookupResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
     public TagLookupResponse tagLookup(
-        @WebParam(name = "TagLookup", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+        @WebParam(name = "TagLookup", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
         TagLookup body);
 
     /**
@@ -258,9 +258,9 @@ public interface AWSECommerceServicePortType {
      *     returns com.ECS.client.jax.VehicleSearchResponse
      */
     @WebMethod(operationName = "VehicleSearch", action = "http://soap.amazon.com/VehicleSearch")
-    @WebResult(name = "VehicleSearchResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+    @WebResult(name = "VehicleSearchResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
     public VehicleSearchResponse vehicleSearch(
-        @WebParam(name = "VehicleSearch", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+        @WebParam(name = "VehicleSearch", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
         VehicleSearch body);
 
     /**
@@ -270,9 +270,9 @@ public interface AWSECommerceServicePortType {
      *     returns com.ECS.client.jax.VehiclePartSearchResponse
      */
     @WebMethod(operationName = "VehiclePartSearch", action = "http://soap.amazon.com/VehiclePartSearch")
-    @WebResult(name = "VehiclePartSearchResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+    @WebResult(name = "VehiclePartSearchResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
     public VehiclePartSearchResponse vehiclePartSearch(
-        @WebParam(name = "VehiclePartSearch", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+        @WebParam(name = "VehiclePartSearch", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
         VehiclePartSearch body);
 
     /**
@@ -282,9 +282,9 @@ public interface AWSECommerceServicePortType {
      *     returns com.ECS.client.jax.VehiclePartLookupResponse
      */
     @WebMethod(operationName = "VehiclePartLookup", action = "http://soap.amazon.com/VehiclePartLookup")
-    @WebResult(name = "VehiclePartLookupResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+    @WebResult(name = "VehiclePartLookupResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
     public VehiclePartLookupResponse vehiclePartLookup(
-        @WebParam(name = "VehiclePartLookup", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+        @WebParam(name = "VehiclePartLookup", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
         VehiclePartLookup body);
 
     /**
@@ -294,9 +294,9 @@ public interface AWSECommerceServicePortType {
      *     returns com.ECS.client.jax.MultiOperationResponse
      */
     @WebMethod(operationName = "MultiOperation", action = "http://soap.amazon.com/MultiOperation")
-    @WebResult(name = "MultiOperationResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+    @WebResult(name = "MultiOperationResponse", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
     public MultiOperationResponse multiOperation(
-        @WebParam(name = "MultiOperation", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2010-12-01", partName = "body")
+        @WebParam(name = "MultiOperation", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-04-01", partName = "body")
         MultiOperation body);
 
 }

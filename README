@@ -3,3 +3,12 @@ un archivo llamado "biblioteca-config.groovy" con el siguiente contenido:
 
 grails.awsAccessKeyID = "<provided-by-amazon>"
 grails.awsSecretKey = "<provided-by-amazon>"
+
+
+
+wsimport -d build -s src -p com.ECS.client.jax http://webservices.amazon.com/AWSECommerceService/2011-04-01/AWSECommerceService.wsdl -b jaxws-custom.xml .
+
+jaxws-custom.xml
+<jaxws:bindings wsdlLocation="http://webservices.amazon.com/AWSECommerceService/2011-04-01/AWSECommerceService.wsdl" xmlns:jaxws="http://java.sun.com/xml/ns/jaxws">
+  <jaxws:enableWrapperStyle>false</jaxws:enableWrapperStyle>
+</jaxws:bindings>

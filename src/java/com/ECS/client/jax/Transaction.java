@@ -33,11 +33,11 @@ import javax.xml.bind.annotation.XmlType;
  *             &lt;complexContent>
  *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *                 &lt;sequence>
- *                   &lt;element name="Total" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Price"/>
- *                   &lt;element name="Subtotal" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Price"/>
- *                   &lt;element name="Tax" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Price"/>
- *                   &lt;element name="ShippingCharge" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Price"/>
- *                   &lt;element name="Promotion" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Price"/>
+ *                   &lt;element name="Total" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Price"/>
+ *                   &lt;element name="Subtotal" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Price"/>
+ *                   &lt;element name="Tax" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Price"/>
+ *                   &lt;element name="ShippingCharge" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Price"/>
+ *                   &lt;element name="Promotion" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Price"/>
  *                 &lt;/sequence>
  *               &lt;/restriction>
  *             &lt;/complexContent>
@@ -48,7 +48,7 @@ import javax.xml.bind.annotation.XmlType;
  *             &lt;complexContent>
  *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *                 &lt;sequence>
- *                   &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}TransactionItem" maxOccurs="unbounded"/>
+ *                   &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}TransactionItem" maxOccurs="unbounded"/>
  *                 &lt;/sequence>
  *               &lt;/restriction>
  *             &lt;/complexContent>
@@ -920,11 +920,11 @@ public class Transaction {
      *   &lt;complexContent>
      *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
      *       &lt;sequence>
-     *         &lt;element name="Total" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Price"/>
-     *         &lt;element name="Subtotal" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Price"/>
-     *         &lt;element name="Tax" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Price"/>
-     *         &lt;element name="ShippingCharge" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Price"/>
-     *         &lt;element name="Promotion" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Price"/>
+     *         &lt;element name="Total" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Price"/>
+     *         &lt;element name="Subtotal" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Price"/>
+     *         &lt;element name="Tax" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Price"/>
+     *         &lt;element name="ShippingCharge" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Price"/>
+     *         &lt;element name="Promotion" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Price"/>
      *       &lt;/sequence>
      *     &lt;/restriction>
      *   &lt;/complexContent>
@@ -1087,7 +1087,7 @@ public class Transaction {
      *   &lt;complexContent>
      *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
      *       &lt;sequence>
-     *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}TransactionItem" maxOccurs="unbounded"/>
+     *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}TransactionItem" maxOccurs="unbounded"/>
      *       &lt;/sequence>
      *     &lt;/restriction>
      *   &lt;/complexContent>

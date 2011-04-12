@@ -24,9 +24,9 @@ import javax.xml.bind.annotation.XmlType;
  *       &lt;sequence>
  *         &lt;element name="OfferListingId" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="ExchangeId" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="Price" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Price" minOccurs="0"/>
- *         &lt;element name="SalePrice" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Price" minOccurs="0"/>
- *         &lt;element name="AmountSaved" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Price" minOccurs="0"/>
+ *         &lt;element name="Price" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Price" minOccurs="0"/>
+ *         &lt;element name="SalePrice" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Price" minOccurs="0"/>
+ *         &lt;element name="AmountSaved" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Price" minOccurs="0"/>
  *         &lt;element name="PercentageSaved" type="{http://www.w3.org/2001/XMLSchema}nonNegativeInteger" minOccurs="0"/>
  *         &lt;element name="Availability" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="AvailabilityAttributes" minOccurs="0">
@@ -55,7 +55,7 @@ import javax.xml.bind.annotation.XmlType;
  *             &lt;/complexContent>
  *           &lt;/complexType>
  *         &lt;/element>
- *         &lt;element name="ISPUStoreAddress" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Address" minOccurs="0"/>
+ *         &lt;element name="ISPUStoreAddress" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Address" minOccurs="0"/>
  *         &lt;element name="ISPUStoreHours" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="IsEligibleForSuperSaverShipping" type="{http://www.w3.org/2001/XMLSchema}boolean" minOccurs="0"/>
  *         &lt;element name="IsEligibleForPrime" type="{http://www.w3.org/2001/XMLSchema}boolean" minOccurs="0"/>
@@ -69,7 +69,7 @@ import javax.xml.bind.annotation.XmlType;
  *                 &lt;sequence>
  *                   &lt;element name="ShippingType" type="{http://www.w3.org/2001/XMLSchema}string"/>
  *                   &lt;element name="IsRateTaxInclusive" type="{http://www.w3.org/2001/XMLSchema}boolean"/>
- *                   &lt;element name="ShippingPrice" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Price"/>
+ *                   &lt;element name="ShippingPrice" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Price"/>
  *                 &lt;/sequence>
  *               &lt;/restriction>
  *             &lt;/complexContent>
@@ -789,7 +789,7 @@ public class OfferListing {
      *       &lt;sequence>
      *         &lt;element name="ShippingType" type="{http://www.w3.org/2001/XMLSchema}string"/>
      *         &lt;element name="IsRateTaxInclusive" type="{http://www.w3.org/2001/XMLSchema}boolean"/>
-     *         &lt;element name="ShippingPrice" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Price"/>
+     *         &lt;element name="ShippingPrice" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Price"/>
      *       &lt;/sequence>
      *     &lt;/restriction>
      *   &lt;/complexContent>

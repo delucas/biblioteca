@@ -21,8 +21,8 @@ import javax.xml.bind.annotation.XmlType;
  *         &lt;element name="ComponentType" type="{http://www.w3.org/2001/XMLSchema}string"/>
  *         &lt;element name="Quantity" type="{http://www.w3.org/2001/XMLSchema}int" minOccurs="0"/>
  *         &lt;element name="PercentOff" type="{http://www.w3.org/2001/XMLSchema}double" minOccurs="0"/>
- *         &lt;element name="FixedAmount" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Price" minOccurs="0"/>
- *         &lt;element name="Ceiling" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Price" minOccurs="0"/>
+ *         &lt;element name="FixedAmount" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Price" minOccurs="0"/>
+ *         &lt;element name="Ceiling" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Price" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>

@@ -22,8 +22,8 @@ import javax.xml.bind.annotation.XmlType;
  *       &lt;sequence>
  *         &lt;element name="TransactionItemId" type="{http://www.w3.org/2001/XMLSchema}string"/>
  *         &lt;element name="Quantity" type="{http://www.w3.org/2001/XMLSchema}string"/>
- *         &lt;element name="UnitPrice" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Price"/>
- *         &lt;element name="TotalPrice" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Price"/>
+ *         &lt;element name="UnitPrice" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Price"/>
+ *         &lt;element name="TotalPrice" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Price"/>
  *         &lt;element name="ASIN" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="SKU" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="Title" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
@@ -32,7 +32,7 @@ import javax.xml.bind.annotation.XmlType;
  *             &lt;complexContent>
  *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *                 &lt;sequence>
- *                   &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}TransactionItem" maxOccurs="unbounded"/>
+ *                   &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}TransactionItem" maxOccurs="unbounded"/>
  *                 &lt;/sequence>
  *               &lt;/restriction>
  *             &lt;/complexContent>
@@ -280,7 +280,7 @@ public class TransactionItem {
      *   &lt;complexContent>
      *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
      *       &lt;sequence>
-     *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}TransactionItem" maxOccurs="unbounded"/>
+     *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}TransactionItem" maxOccurs="unbounded"/>
      *       &lt;/sequence>
      *     &lt;/restriction>
      *   &lt;/complexContent>

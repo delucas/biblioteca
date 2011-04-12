@@ -19,29 +19,29 @@ import javax.xml.bind.annotation.XmlType;
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
  *         &lt;element name="IsValid" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="HelpRequest" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}HelpRequest" minOccurs="0"/>
- *         &lt;element name="BrowseNodeLookupRequest" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}BrowseNodeLookupRequest" minOccurs="0"/>
- *         &lt;element name="ItemSearchRequest" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}ItemSearchRequest" minOccurs="0"/>
- *         &lt;element name="ItemLookupRequest" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}ItemLookupRequest" minOccurs="0"/>
- *         &lt;element name="ListSearchRequest" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}ListSearchRequest" minOccurs="0"/>
- *         &lt;element name="ListLookupRequest" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}ListLookupRequest" minOccurs="0"/>
- *         &lt;element name="CustomerContentSearchRequest" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}CustomerContentSearchRequest" minOccurs="0"/>
- *         &lt;element name="CustomerContentLookupRequest" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}CustomerContentLookupRequest" minOccurs="0"/>
- *         &lt;element name="SimilarityLookupRequest" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}SimilarityLookupRequest" minOccurs="0"/>
- *         &lt;element name="CartGetRequest" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}CartGetRequest" minOccurs="0"/>
- *         &lt;element name="CartAddRequest" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}CartAddRequest" minOccurs="0"/>
- *         &lt;element name="CartCreateRequest" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}CartCreateRequest" minOccurs="0"/>
- *         &lt;element name="CartModifyRequest" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}CartModifyRequest" minOccurs="0"/>
- *         &lt;element name="CartClearRequest" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}CartClearRequest" minOccurs="0"/>
- *         &lt;element name="TransactionLookupRequest" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}TransactionLookupRequest" minOccurs="0"/>
- *         &lt;element name="SellerListingSearchRequest" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}SellerListingSearchRequest" minOccurs="0"/>
- *         &lt;element name="SellerListingLookupRequest" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}SellerListingLookupRequest" minOccurs="0"/>
- *         &lt;element name="SellerLookupRequest" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}SellerLookupRequest" minOccurs="0"/>
- *         &lt;element name="TagLookupRequest" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}TagLookupRequest" minOccurs="0"/>
- *         &lt;element name="VehicleSearchRequest" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}VehicleSearchRequest" minOccurs="0"/>
- *         &lt;element name="VehiclePartSearchRequest" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}VehiclePartSearchRequest" minOccurs="0"/>
- *         &lt;element name="VehiclePartLookupRequest" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}VehiclePartLookupRequest" minOccurs="0"/>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Errors" minOccurs="0"/>
+ *         &lt;element name="HelpRequest" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}HelpRequest" minOccurs="0"/>
+ *         &lt;element name="BrowseNodeLookupRequest" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}BrowseNodeLookupRequest" minOccurs="0"/>
+ *         &lt;element name="ItemSearchRequest" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}ItemSearchRequest" minOccurs="0"/>
+ *         &lt;element name="ItemLookupRequest" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}ItemLookupRequest" minOccurs="0"/>
+ *         &lt;element name="ListSearchRequest" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}ListSearchRequest" minOccurs="0"/>
+ *         &lt;element name="ListLookupRequest" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}ListLookupRequest" minOccurs="0"/>
+ *         &lt;element name="CustomerContentSearchRequest" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}CustomerContentSearchRequest" minOccurs="0"/>
+ *         &lt;element name="CustomerContentLookupRequest" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}CustomerContentLookupRequest" minOccurs="0"/>
+ *         &lt;element name="SimilarityLookupRequest" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}SimilarityLookupRequest" minOccurs="0"/>
+ *         &lt;element name="CartGetRequest" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}CartGetRequest" minOccurs="0"/>
+ *         &lt;element name="CartAddRequest" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}CartAddRequest" minOccurs="0"/>
+ *         &lt;element name="CartCreateRequest" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}CartCreateRequest" minOccurs="0"/>
+ *         &lt;element name="CartModifyRequest" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}CartModifyRequest" minOccurs="0"/>
+ *         &lt;element name="CartClearRequest" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}CartClearRequest" minOccurs="0"/>
+ *         &lt;element name="TransactionLookupRequest" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}TransactionLookupRequest" minOccurs="0"/>
+ *         &lt;element name="SellerListingSearchRequest" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}SellerListingSearchRequest" minOccurs="0"/>
+ *         &lt;element name="SellerListingLookupRequest" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}SellerListingLookupRequest" minOccurs="0"/>
+ *         &lt;element name="SellerLookupRequest" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}SellerLookupRequest" minOccurs="0"/>
+ *         &lt;element name="TagLookupRequest" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}TagLookupRequest" minOccurs="0"/>
+ *         &lt;element name="VehicleSearchRequest" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}VehicleSearchRequest" minOccurs="0"/>
+ *         &lt;element name="VehiclePartSearchRequest" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}VehiclePartSearchRequest" minOccurs="0"/>
+ *         &lt;element name="VehiclePartLookupRequest" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}VehiclePartLookupRequest" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Errors" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>

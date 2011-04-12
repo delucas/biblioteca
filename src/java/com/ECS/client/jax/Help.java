@@ -25,8 +25,8 @@ import javax.xml.bind.annotation.XmlType;
  *         &lt;element name="SubscriptionId" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="AssociateTag" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="Validate" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="Shared" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}HelpRequest" minOccurs="0"/>
- *         &lt;element name="Request" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}HelpRequest" maxOccurs="unbounded" minOccurs="0"/>
+ *         &lt;element name="Shared" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}HelpRequest" minOccurs="0"/>
+ *         &lt;element name="Request" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}HelpRequest" maxOccurs="unbounded" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>

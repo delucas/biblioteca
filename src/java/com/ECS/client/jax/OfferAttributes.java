@@ -22,6 +22,7 @@ import javax.xml.bind.annotation.XmlType;
  *         &lt;element name="SubCondition" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="ConditionNote" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="MapPolicy" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="MapOffsiteMessagingOverride" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="WillShipExpedited" type="{http://www.w3.org/2001/XMLSchema}boolean" minOccurs="0"/>
  *         &lt;element name="WillShipInternational" type="{http://www.w3.org/2001/XMLSchema}boolean" minOccurs="0"/>
  *       &lt;/sequence>
@@ -38,6 +39,7 @@ import javax.xml.bind.annotation.XmlType;
     "subCondition",
     "conditionNote",
     "mapPolicy",
+    "mapOffsiteMessagingOverride",
     "willShipExpedited",
     "willShipInternational"
 })
@@ -52,6 +54,8 @@ public class OfferAttributes {
     protected String conditionNote;
     @XmlElement(name = "MapPolicy")
     protected String mapPolicy;
+    @XmlElement(name = "MapOffsiteMessagingOverride")
+    protected String mapOffsiteMessagingOverride;
     @XmlElement(name = "WillShipExpedited")
     protected Boolean willShipExpedited;
     @XmlElement(name = "WillShipInternational")
@@ -151,6 +155,30 @@ public class OfferAttributes {
      */
     public void setMapPolicy(String value) {
         this.mapPolicy = value;
+    }
+
+    /**
+     * Gets the value of the mapOffsiteMessagingOverride property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getMapOffsiteMessagingOverride() {
+        return mapOffsiteMessagingOverride;
+    }
+
+    /**
+     * Sets the value of the mapOffsiteMessagingOverride property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setMapOffsiteMessagingOverride(String value) {
+        this.mapOffsiteMessagingOverride = value;
     }
 
     /**

@@ -22,40 +22,40 @@ import javax.xml.bind.annotation.XmlType;
  *       &lt;sequence>
  *         &lt;element name="ASIN" type="{http://www.w3.org/2001/XMLSchema}string"/>
  *         &lt;element name="ParentASIN" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Errors" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Errors" minOccurs="0"/>
  *         &lt;element name="DetailPageURL" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}ItemLinks" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}ItemLinks" minOccurs="0"/>
  *         &lt;element name="SalesRank" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="SmallImage" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Image" minOccurs="0"/>
- *         &lt;element name="MediumImage" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Image" minOccurs="0"/>
- *         &lt;element name="LargeImage" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Image" minOccurs="0"/>
+ *         &lt;element name="SmallImage" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Image" minOccurs="0"/>
+ *         &lt;element name="MediumImage" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Image" minOccurs="0"/>
+ *         &lt;element name="LargeImage" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Image" minOccurs="0"/>
  *         &lt;element name="ImageSets" maxOccurs="unbounded" minOccurs="0">
  *           &lt;complexType>
  *             &lt;complexContent>
  *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *                 &lt;sequence>
  *                   &lt;element name="MerchantId" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *                   &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}ImageSet" maxOccurs="unbounded" minOccurs="0"/>
+ *                   &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}ImageSet" maxOccurs="unbounded" minOccurs="0"/>
  *                 &lt;/sequence>
  *               &lt;/restriction>
  *             &lt;/complexContent>
  *           &lt;/complexType>
  *         &lt;/element>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}ItemAttributes" minOccurs="0"/>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}MerchantItemAttributes" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}ItemAttributes" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}MerchantItemAttributes" minOccurs="0"/>
  *         &lt;element name="VariationAttributes" minOccurs="0">
  *           &lt;complexType>
  *             &lt;complexContent>
  *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *                 &lt;sequence>
- *                   &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}VariationAttribute" maxOccurs="unbounded" minOccurs="0"/>
+ *                   &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}VariationAttribute" maxOccurs="unbounded" minOccurs="0"/>
  *                 &lt;/sequence>
  *               &lt;/restriction>
  *             &lt;/complexContent>
  *           &lt;/complexType>
  *         &lt;/element>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}RelatedItems" maxOccurs="unbounded" minOccurs="0"/>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Collections" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}RelatedItems" maxOccurs="unbounded" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Collections" minOccurs="0"/>
  *         &lt;element name="Subjects" minOccurs="0">
  *           &lt;complexType>
  *             &lt;complexContent>
@@ -67,19 +67,19 @@ import javax.xml.bind.annotation.XmlType;
  *             &lt;/complexContent>
  *           &lt;/complexType>
  *         &lt;/element>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}OfferSummary" minOccurs="0"/>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Offers" minOccurs="0"/>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}VariationSummary" minOccurs="0"/>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Variations" minOccurs="0"/>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}CustomerReviews" minOccurs="0"/>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}EditorialReviews" minOccurs="0"/>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}SimilarProducts" minOccurs="0"/>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Accessories" minOccurs="0"/>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Tracks" minOccurs="0"/>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}BrowseNodes" minOccurs="0"/>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Tags" minOccurs="0"/>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}ListmaniaLists" minOccurs="0"/>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}SearchInside" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}OfferSummary" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Offers" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}VariationSummary" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Variations" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}CustomerReviews" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}EditorialReviews" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}SimilarProducts" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Accessories" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Tracks" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}BrowseNodes" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Tags" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}ListmaniaLists" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}SearchInside" minOccurs="0"/>
  *         &lt;element name="AlternateVersions" minOccurs="0">
  *           &lt;complexType>
  *             &lt;complexContent>
@@ -1133,7 +1133,7 @@ public class Item {
      *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
      *       &lt;sequence>
      *         &lt;element name="MerchantId" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
-     *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}ImageSet" maxOccurs="unbounded" minOccurs="0"/>
+     *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}ImageSet" maxOccurs="unbounded" minOccurs="0"/>
      *       &lt;/sequence>
      *     &lt;/restriction>
      *   &lt;/complexContent>
@@ -1280,7 +1280,7 @@ public class Item {
      *   &lt;complexContent>
      *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
      *       &lt;sequence>
-     *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}VariationAttribute" maxOccurs="unbounded" minOccurs="0"/>
+     *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}VariationAttribute" maxOccurs="unbounded" minOccurs="0"/>
      *       &lt;/sequence>
      *     &lt;/restriction>
      *   &lt;/complexContent>

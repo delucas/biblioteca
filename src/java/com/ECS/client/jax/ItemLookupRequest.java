@@ -21,8 +21,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}Condition" minOccurs="0"/>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}DeliveryMethod" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}Condition" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}DeliveryMethod" minOccurs="0"/>
  *         &lt;element name="FutureLaunchDate" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="IdType" minOccurs="0">
  *           &lt;simpleType>
@@ -47,8 +47,8 @@ import javax.xml.bind.annotation.XmlType;
  *         &lt;element name="TagPage" type="{http://www.w3.org/2001/XMLSchema}positiveInteger" minOccurs="0"/>
  *         &lt;element name="TagsPerPage" type="{http://www.w3.org/2001/XMLSchema}positiveInteger" minOccurs="0"/>
  *         &lt;element name="TagSort" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="VariationPage" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}positiveIntegerOrAll" minOccurs="0"/>
- *         &lt;element name="RelatedItemPage" type="{http://webservices.amazon.com/AWSECommerceService/2010-12-01}positiveIntegerOrAll" minOccurs="0"/>
+ *         &lt;element name="VariationPage" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}positiveIntegerOrAll" minOccurs="0"/>
+ *         &lt;element name="RelatedItemPage" type="{http://webservices.amazon.com/AWSECommerceService/2011-04-01}positiveIntegerOrAll" minOccurs="0"/>
  *         &lt;element name="RelationshipType" type="{http://www.w3.org/2001/XMLSchema}string" maxOccurs="unbounded" minOccurs="0"/>
  *         &lt;element name="IncludeReviewsSummary" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="TruncateReviewsAt" type="{http://www.w3.org/2001/XMLSchema}nonNegativeInteger" minOccurs="0"/>
