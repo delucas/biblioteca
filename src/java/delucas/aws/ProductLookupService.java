@@ -15,13 +15,13 @@ import delucas.Libro;
 
 public class ProductLookupService {
 
-	private String awsAccessKeyID;
-	private String awsSecretKey;
+	private String awsAccessKeyID = "AKIAIB2YWCCZVQBE4GFA";
+	private String awsSecretKey = "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";
 
 	public ProductLookupService() {
 		GrailsApplication application = ApplicationHolder.getApplication();
-		awsAccessKeyID = application.getFlatConfig().get("grails.awsAccessKeyID").toString();
-		awsSecretKey = application.getFlatConfig().get("grails.awsSecretKey").toString();
+//		awsAccessKeyID = application.getFlatConfig().get("grails.awsAccessKeyID").toString();
+//		awsSecretKey = application.getFlatConfig().get("grails.awsSecretKey").toString();
 	}
 	
 	public Libro buscarPorISBN(String isbn) {

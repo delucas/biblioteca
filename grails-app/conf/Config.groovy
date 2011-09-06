@@ -88,10 +88,3 @@ log4j = {
 
     warn   'org.mortbay.log'
 }
-
-
-grails.config.locations = ["classpath:${appName}-config.groovy",
-                           "file:./${appName}-config.groovy"]
-if (System.properties["${appName}.config.location"]) {
-   grails.config.locations << "file:" + System.properties["${appName}.config.location"]
-}
